@@ -3,6 +3,8 @@ Development of Cartography, WebMaps and Apps in ArcGIS
 
 ## Description
 
+Elaboration and cartographic production in the ArcGIS platform, ArcGIS online and other ESRI products.
+
 ## Content
 
 ### Web Maps developed in ArcGIS  
@@ -46,7 +48,7 @@ Development of Cartography, WebMaps and Apps in ArcGIS
 
 the development of Cartography, WebMaps and Apps in ArcGIS, was carried out by Carlos Mendez, identified with the user `Camendezv_UDFJC`.
 
-The original data published in ArcGIS, are available in:
+The original data published in ArcGIS, are available in: [https://www.arcgis.com/home/user.html?user=camendezv_UDFJC](https://www.arcgis.com/home/user.html?user=camendezv_UDFJC)
 
 ## Conflict of Interest.
 
