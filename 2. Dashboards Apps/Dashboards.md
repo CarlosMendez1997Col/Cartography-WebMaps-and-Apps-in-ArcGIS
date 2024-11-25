@@ -13,7 +13,7 @@
 
 ## Variação 2001-2023 índices SPI e SPEI
 
-[ariação 2001-2023 índices SPI e SPEI](https://arcg.is/zH9n50)
+[Variação 2001-2023 índices SPI e SPEI](https://arcg.is/zH9n50)
 
 ## Previsão 2023-2025 precipitação e ETP
 
