@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />    
+    <link
+      rel="stylesheet"
+      href="./js/app/widgets/panels/css/MapMaker.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript> <link rel="prefetch" as="style" href="./js/app/widgets/panels/css/MapMaker.css" /></noscript>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/coding-components/dist/arcgis-coding-components/arcgis-coding-components.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="prefetch"
+        as="style"
+        href="./node_modules/@arcgis/coding-components/dist/arcgis-coding-components/arcgis-coding-components.css"
+      />
+    </noscript>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/map-config-components/dist/arcgis-map-config-components/arcgis-map-config-components.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="prefetch"
+        as="style"
+        href="./node_modules/@arcgis/map-config-components/dist/arcgis-map-config-components/arcgis-map-config-components.css"
+      />
+    </noscript>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/embeddable-components/dist/arcgis-embeddable-components/arcgis-embeddable-components.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="prefetch"
+        as="style"
+        href="./node_modules/@arcgis/embeddable-components/dist/arcgis-embeddable-components/arcgis-embeddable-components.css"
+      />
+    </noscript>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/app-components/dist/arcgis-app/arcgis-app.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link rel="prefetch" as="style" href="./node_modules/@arcgis/app-components/dist/arcgis-app/arcgis-app.css" />
+    </noscript>
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@esri/calcite-components/dist/calcite/calcite.esm.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@esri/calcite-components/dist/calcite/calcite.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link rel="prefetch" as="style" href="./node_modules/@esri/calcite-components/dist/calcite/calcite.css" />
+    </noscript>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/analysis-components/dist/analysis-components/analysis-components.css"
+    />
+    <link rel="stylesheet" href="./node_modules/@arcgis/analysis-tool-app/dist/analysis-tool-app/analysis-tool-app.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/analysis-studio-components/dist/analysis-studio-components/analysis-studio-components.css"
+    />
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/coding-components/dist/arcgis-coding-components/arcgis-coding-components.esm.js"
+    ></script>
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/map-components/dist/arcgis-map-components/arcgis-map-components.esm.js"
+    ></script>
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/common-components/dist/arcgis-common-components/arcgis-common-components.esm.js"
+    ></script>
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/map-config-components/dist/arcgis-map-config-components/arcgis-map-config-components.esm.js"
+    ></script>
+
+    <script defer type="module" crossorigin="use-credentials"
+      src="./node_modules/@arcgis/common-components/dist/arcgis-common-components/arcgis-common-components.esm.js"></script>
+    
+    <script defer type="module" crossorigin="use-credentials"
+      src="./node_modules/@arcgis/embeddable-components/dist/arcgis-embeddable-components/arcgis-embeddable-components.esm.js"></script>
+
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/app-components/dist/arcgis-app/arcgis-app.esm.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/charts-config-components/dist/arcgis-charts-config-components/arcgis-charts-config-components.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/charts-components/dist/arcgis-charts-components/arcgis-charts-components.css"
+    />
+    <link rel="stylesheet" href="./node_modules/@arcgis/charts-app/dist/arcgis-charts-app/arcgis-charts-app.css" />
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/charts-components/dist/arcgis-charts-components/arcgis-charts-components.esm.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/charts-config-components/dist/arcgis-charts-config-components/arcgis-charts-config-components.esm.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      crossorigin="use-credentials"
+      src="./node_modules/@arcgis/charts-app/dist/arcgis-charts-app/arcgis-charts-app.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@arcgis/geoenrichment-components/dist/geoenrichment-components/geoenrichment/themes/data-browser.css"
+    />
+    <script
+      type="module"
+      src="./node_modules/@arcgis/geoenrichment-components/dist/geoenrichment-components/geoenrichment-components.esm.js"
+    ></script>
+    <link rel="stylesheet"
+      href="./node_modules/@arcgis/arcgis-raster-function-editor/dist/raster-function-editor/raster-function-editor.css">
+    </link>
+    
+    <!--[if IE]>
+      <style type="text/css">
+        #ie-message {
+          display: block !important;
+        }
+        #ie-message {
+          display: block !important;
+        }
+      </style>
+    <![endif]-->
+
+    <title class="js-page-title">Map Viewer</title>
+  </head>
+
+  <body>
+    <div id="ie-message" style="display: none">
+      <div class="wrapper">
+        <div class="icon">
+          <svg
+            class="svg"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M1.225 21.225A1.678 1.678 0 0 0 2.707 22H22.28a1.68 1.68 0 0 0 1.484-.775 1.608 1.608 0 0 0 .003-1.656L13.995 1.827a1.745 1.745 0 0 0-2.969 0l-9.8 17.742a1.603 1.603 0 0 0 0 1.656zm.859-1.143l9.82-17.773A.71.71 0 0 1 12.508 2a.73.73 0 0 1 .629.342l9.751 17.708a.626.626 0 0 1 .017.662.725.725 0 0 1-.626.288H2.708a.723.723 0 0 1-.623-.286.605.605 0 0 1-.001-.632zM13 15h-1V8h1zm-1.5 2.5a1 1 0 1 1 1 1 1.002 1.002 0 0 1-1-1z"
+            ></path>
+          </svg>
+        </div>
+        <div class="message">
+          You are using a browser that is no longer supported. Please use the latest version of Google Chrome, Mozilla
+          Firefox, Apple Safari, or Microsoft Edge.
+        </div>
+      </div>
+    </div>
+
+    <div class="calcite-shell-container"></div>
+    <script src="./js/config/dojo.js"></script>
+    <script src="./node_modules/dojo/dojo.js"></script>
+    <script type="text/javascript">
+      require(["app/main"], function (main) {
+        main.default("viewer");
+      });
+    </script>
+  </body>
+</html>
