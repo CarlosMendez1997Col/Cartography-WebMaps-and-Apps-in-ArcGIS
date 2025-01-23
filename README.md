@@ -7,16 +7,6 @@ Elaboration and cartographic production in the ArcGIS platform, ArcGIS online an
 
 ## Content
 
-### Web Maps developed in ArcGIS  
-
-| Web Maps developed in ArcGIS                                          | Url                            |
-|-----------------------------------------------------------------------|--------------------------------|
-| Köppen-Geiger climate classification in the Paranapanema River Basin  | [Url](https://arcg.is/09n9Ce)  |
-| Localização Geral Bacia Hidrográfica do Rio Paranapanema              | [Url](https://arcg.is/LLb1X)   |
-| Unidades Hidrelétricas(UHEs) e Pequenas Centrais Hidrelétricas (PCHs) | [Url](https://arcg.is/1WGC4L1) |
-| Unidades de Planejamento Hidrológico (UPHs)                           | [Url](https://arcg.is/0K8zT80) |
-| Municipios Bacia Hidrográfica do Rio Paranapanema                     | [Url](https://arcg.is/1ejrz51) |
-
 ### Dashboards developed in ArcGIS
 
 | Dashboards developed in ArcGIS                                   | Url                            |
@@ -36,6 +26,16 @@ Elaboration and cartographic production in the ArcGIS platform, ArcGIS online an
 | Köppen-Geiger Climate Paranapanema River Basin                     | [Url](https://arcg.is/yaTj)    |
 | Spatial and temporal evapotranspiration Paranapanema River Basin   | [Url](https://arcg.is/0WHrzP)  |
 | Spatial and temporal precipitation patterns throughout 2023 – 2025 | [Url](https://arcg.is/09uWHf0) |
+
+### Web Maps developed in ArcGIS  
+
+| Web Maps developed in ArcGIS                                          | Url                            |
+|-----------------------------------------------------------------------|--------------------------------|
+| Köppen-Geiger climate classification in the Paranapanema River Basin  | [Url](https://arcg.is/09n9Ce)  |
+| Localização Geral Bacia Hidrográfica do Rio Paranapanema              | [Url](https://arcg.is/LLb1X)   |
+| Unidades Hidrelétricas(UHEs) e Pequenas Centrais Hidrelétricas (PCHs) | [Url](https://arcg.is/1WGC4L1) |
+| Unidades de Planejamento Hidrológico (UPHs)                           | [Url](https://arcg.is/0K8zT80) |
+| Municipios Bacia Hidrográfica do Rio Paranapanema                     | [Url](https://arcg.is/1ejrz51) |
 
 
 ### Instant Apps developed in ArcGIS
